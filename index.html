@@ -293,17 +293,22 @@
             journal   = {IEEE Transactions on Visualization and Computer Graphics},
             year      = {2025}
             }
-        </pre>
-        <button onclick="copyBibTeX()" style="position: absolute; top: 10px; right: 10px; padding: 5px 10px; font-size: 12px; cursor: pointer; border: none; background-color: #0077b6; color: white; border-radius: 3px;">Copy</button>
-    </div>
-    <script>
-        function copyBibTeX() {
-            const bibtex = document.getElementById('bibtexCitation').innerText;
-            navigator.clipboard.writeText(bibtex).then(() => {
-                alert('BibTeX copied to clipboard!');
-            });
-        }
-    </script>
+       </pre>
+    <button onclick="copyBibTeX()" style="position: absolute; top: 10px; right: 10px; padding: 5px 10px; font-size: 12px; cursor: pointer; border: none; background-color: #0077b6; color: white; border-radius: 3px;">
+        📋 Copy
+    </button>
+</div>
+
+<script>
+    function copyBibTeX() {
+        const bibtex = document.getElementById('bibtexCitation').innerText;
+        navigator.clipboard.writeText(bibtex).then(() => {
+            const button = document.querySelector('button');
+            button.innerText = 'Copied!';
+            setTimeout(() => button.innerText = '📋 Copy', 2000);
+        });
+    }
+</script>
 
     <hr>
 
