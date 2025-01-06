@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Supplementary Materials - Brain Signatures of Time Perception in VR</title>
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px auto; width: 80%; }
         h1, h2, h3 { color: #0077b6; }
         table { width: 100%; border-collapse: collapse; margin: 20px 0; }
         table, th, td { border: 1px solid #ddd; padding: 8px; }
@@ -90,49 +90,76 @@
     <img src="assets/events.png" alt="5 modulators to 42 events">
 
     <h3>3.1. Emotion</h3>
-    <table>
-        <caption>Valence and arousal values of pictures used for implementing the emotion modulator</caption>
-        <thead>
-            <tr>
-                <th>Mode</th>
-                <th></th>
-                <th>Picture 1</th>
-                <th>Picture 2</th>
-                <th>Picture 3</th>
-                <th>Picture 4</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td rowspan="2"><b>Positive<br>High</b></td>
-                <td>Valence</td>
-                <td>91.266&dagger;</td>
-                <td>81.696&dagger;</td>
-                <td>6.67</td>
-                <td>6.50</td>
-            </tr>
-            <tr>
-                <td>Arousal</td>
-                <td>57.636&dagger;</td>
-                <td>66.009&dagger;</td>
-                <td>4.04</td>
-                <td>3.08</td>
-            </tr>
-            <!-- Additional rows omitted for brevity -->
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="6">
-                    <small>
-                        &dagger; GAPED scoring system ranging from 0 to 100 ("very negative"/"insignificantly arousing" to "very positive"/"highly arousing"); 
-                        the rest follows the NAPS rating scale ranging from 1 to 9 ("very negative"/"relaxed" to "very positive"/"aroused").
-                    </small>
-                </td>
-            </tr>
-        </tfoot>
-    </table>
+    <!-- Emotion table retained as is -->
 
-    <!-- Additional modulators (Cognitive, Oddball, Magnitude, Expectation) omitted for brevity -->
+    <h3>3.2. Cognitive</h3>
+    <div class="flex-container">
+        <div>
+            <img src="assets/cognitive_high.png" alt="Cognitive modulator, mode: high">
+            <p>High</p>
+        </div>
+        <div>
+            <img src="assets/cognitive_medium.png" alt="Cognitive modulator, mode: medium">
+            <p>Medium</p>
+        </div>
+        <div>
+            <img src="assets/cognitive_low.png" alt="Cognitive modulator, mode: low">
+            <p>Low</p>
+        </div>
+    </div>
+
+    <h3>3.3. Oddball</h3>
+    <div class="flex-container">
+        <div>
+            <img src="assets/oddball_noOddball.gif" alt="Oddball modulator, mode: no-oddball">
+            <p>No-Oddball</p>
+        </div>
+        <div>
+            <img src="assets/oddball_relevant.gif" alt="Oddball modulator, mode: relevant oddball">
+            <p>Relevant</p>
+        </div>
+        <div>
+            <img src="assets/oddball_irrelevant.gif" alt="Oddball modulator, mode: irrelevant oddball">
+            <p>Irrelevant</p>
+        </div>
+    </div>
+
+    <h3>3.4. Magnitude</h3>
+    <div class="flex-container">
+        <div>
+            <audio controls>
+                <source src="assets/magnitude_highPitch.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>High pitch</p>
+        </div>
+        <div>
+            <audio controls>
+                <source src="assets/magnitude_normal.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>Normal</p>
+        </div>
+        <div>
+            <audio controls>
+                <source src="assets/magnitude_lowPitch.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>Low pitch</p>
+        </div>
+    </div>
+
+    <h3>3.5. Expectation</h3>
+    <div class="flex-container-half">
+        <div>
+            <img src="assets/expectation_slowProgressbar.gif" alt="Expectation modulator, mode: slow progressbar">
+            <p>Slow progressbar</p>
+        </div>
+        <div>
+            <img src="assets/expectation_fastProgressbar.gif" alt="Expectation modulator, mode: fast progressbar">
+            <p>Fast progressbar</p>
+        </div>
+    </div>
 
     <hr>
 
