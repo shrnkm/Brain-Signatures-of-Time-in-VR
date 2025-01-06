@@ -53,7 +53,7 @@
 
 ------------------------------------------------------------------------
 
-## **2. Precedure**
+## **2. Procedure**
 <div style="text-align: center;">
   <img src="assets/procedure.png" alt="experiment procedure" style="width: 80%; height: auto; margin: auto;">
   
