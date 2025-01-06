@@ -10,7 +10,7 @@
 
 <p>
   <a href="https://vrarlab.uni.lu" target="_blank">VR/AR Lab</a> & 
-  <a href="https://www.uni.lu/fstm-en/research-groups/computational-interaction/" target="_blank">COIN Lab</a>, 
+  <a href="https://www.uni.lu/fstm-en/research-groups/computational-interaction/" target="_blank">COIN Research Group</a>, 
   @<a href="https://www.uni.lu/en/" target="_blank">University of Luxembourg</a>
 </p>
 
@@ -21,16 +21,16 @@
 ## **1. Study Setup**
 <table>
   <tr>
-    <td colspan="4"><img src="images/study_setup_01.jpg" alt="study setup" width="100%"></td>
-    <td colspan="2"><img src="images/study_setup_02.jpg" alt="study setup" width="100%"></td>
+    <td colspan="4"><img src="assets/study_setup_01.jpg" alt="study setup" width="100%"></td>
+    <td colspan="2"><img src="assets/study_setup_02.jpg" alt="study setup" width="100%"></td>
   </tr>
   <tr>
-    <td colspan="6" align="center"><img src="images/study_setup_03.jpg" alt="used devices" width="100%"></td>
+    <td colspan="6" align="center"><img src="assets/study_setup_03.jpg" alt="used devices" width="100%"></td>
   </tr>
   <tr>
-    <td colspan="2"><img src="images/Unicorn.png" alt="EEG cap" width="100%"></td>
-    <td colspan="2"><img src="images/Leap.png" alt="Handtracker" width="100%"></td>
-    <td colspan="2"><img src="images/HTC.png" alt="VR headset" width="100%"></td>
+    <td colspan="2"><img src="assets/Unicorn.png" alt="EEG cap" width="100%"></td>
+    <td colspan="2"><img src="assets/Leap.png" alt="Handtracker" width="100%"></td>
+    <td colspan="2"><img src="assets/HTC.png" alt="VR headset" width="100%"></td>
   </tr>
   <tr>
     <td colspan="2" align="center">
@@ -55,10 +55,10 @@
 
 ## **2. Precedure**
 <div style="text-align: center;">
-  <img src="images/procedure.png" alt="experiment procedure" style="width: 80%; height: auto; margin: auto;">
+  <img src="assets/procedure.png" alt="experiment procedure" style="width: 80%; height: auto; margin: auto;">
   
   <video id="video-player" controls style="width: 100%; height: auto; margin: 10px 0;">
-    <source src="videos/procedure.mp4" type="video/mp4">
+    <source src="assets/procedure.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 
@@ -68,7 +68,7 @@
 ------------------------------------------------------------------------
 
 ## **3. Modulators**
-<img src="images/events.png" alt="5 modulators to 42 events" style="width: 100%; height: auto;">
+<img src="assets/events.png" alt="5 modulators to 42 events" style="width: 100%; height: auto;">
 
 ### 3.1. Emotion
 <table>
@@ -160,15 +160,15 @@
 ### 3.2. Cognitive
 <div style="display: flex; justify-content: space-between; gap: 1px;">
   <div style="width: 33%; text-align: center;">
-    <img src="images/cognitive_high.png" alt="Cognitive modulator, mode: high" style="width: 100%; height: auto;">
+    <img src="assets/cognitive_high.png" alt="Cognitive modulator, mode: high" style="width: 100%; height: auto;">
     <p>High</p>
   </div>
   <div style="width: 33%; text-align: center;">
-    <img src="images/cognitive_medium.png" alt="Cognitive modulator, mode: medium" style="width: 100%; height: auto;">
+    <img src="assets/cognitive_medium.png" alt="Cognitive modulator, mode: medium" style="width: 100%; height: auto;">
     <p>Medium</p>
   </div>
   <div style="width: 33%; text-align: center;">
-    <img src="images/cognitive_low.png" alt="Cognitive modulator, mode: low" style="width: 100%; height: auto;">
+    <img src="assets/cognitive_low.png" alt="Cognitive modulator, mode: low" style="width: 100%; height: auto;">
     <p>Low</p>
   </div>
 </div>
@@ -176,15 +176,15 @@
 ### 3.3. Oddball
 <div style="display: flex; justify-content: space-between; gap: 1px;">
   <div style="width: 33%; text-align: center;">
-    <img src="images/oddball_noOddball.gif" alt="Oddball modulator, mode: no-oddball" style="width: 100%; height: auto;">
+    <img src="assets/oddball_noOddball.gif" alt="Oddball modulator, mode: no-oddball" style="width: 100%; height: auto;">
     <p>No-Oddball</p>
   </div>
   <div style="width: 33%; text-align: center;">
-    <img src="images/oddball_relevant.gif" alt="Oddball modulator, mode: relevant oddball" style="width: 100%; height: auto;">
+    <img src="assets/oddball_relevant.gif" alt="Oddball modulator, mode: relevant oddball" style="width: 100%; height: auto;">
     <p>Relevant</p>
   </div>
   <div style="width: 33%; text-align: center;">
-    <img src="images/oddball_irrelevant.gif" alt="Oddball modulator, mode: irrelevant oddball" style="width: 100%; height: auto;">
+    <img src="assets/oddball_irrelevant.gif" alt="Oddball modulator, mode: irrelevant oddball" style="width: 100%; height: auto;">
     <p>Irrelevant</p>
   </div>
 </div>
@@ -194,7 +194,7 @@
 <div style="display: flex; justify-content: space-between; gap: 10px;">
   <div style="width: 33%; text-align: center;">
     <audio controls style="width: 100%;">
-      <source src="audios/magnitude_highPitch.mp3" type="audio/mpeg">
+      <source src="assets/magnitude_highPitch.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
     <p>High pitch</p>
@@ -202,7 +202,7 @@
 
   <div style="width: 33%; text-align: center;">
     <audio controls style="width: 100%;">
-      <source src="audios/magnitude_normal.mp3" type="audio/mpeg">
+      <source src="assets/magnitude_normal.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
     <p>Normal</p>
@@ -210,7 +210,7 @@
 
   <div style="width: 33%; text-align: center;">
     <audio controls style="width: 100%;">
-      <source src="audios/magnitude_lowPitch.mp3" type="audio/mpeg">
+      <source src="assets/magnitude_lowPitch.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
     <p>Low pitch</p>
@@ -220,11 +220,11 @@
 ### 3.5. Expectation
 <div style="display: flex; justify-content: space-between; gap: 5px;">
   <div style="width: 48%; text-align: center;">
-    <img src="images/expectation_slowProgressbar.gif" alt="Expectation modulator, mode: slow progressbar" style="width: 100%; height: auto;">
+    <img src="assets/expectation_slowProgressbar.gif" alt="Expectation modulator, mode: slow progressbar" style="width: 100%; height: auto;">
     <p>Slow progressbar</p>
   </div>
   <div style="width: 48%; text-align: center;">
-    <img src="images/expectation_fastProgressbar.gif" alt="Expectation modulator, mode: fast progressbar" style="width: 100%; height: auto;">
+    <img src="assets/expectation_fastProgressbar.gif" alt="Expectation modulator, mode: fast progressbar" style="width: 100%; height: auto;">
     <p>Fast progressbar</p>
   </div>
 </div>
@@ -235,17 +235,17 @@
 
 ## **4. Results**
 <div style="width: 100%; text-align: center; margin-bottom: 60px;">
-    <img src="images/topography.png" alt="Topographical map of time perception states" style="width: 100%; height: auto;">
+    <img src="assets/topography.png" alt="Topographical map of time perception states" style="width: 100%; height: auto;">
     <p>Topographic map of different band powers for time perception states.</p>
 </div>
 
 <div style="width: 100%; text-align: center; margin-bottom: 60px;">
-    <img src="images/psd.png" alt="PSD plot of time percepsion states" style="width: 100%; height: auto;">
+    <img src="assets/psd.png" alt="PSD plot of time percepsion states" style="width: 100%; height: auto;">
     <p>Spectral activity of EEG channels averaged over all participants, grouped by time perception states.</p>
 </div>
 
 <div style="width: 100%; text-align: center; margin-bottom: 60px;">
-    <img src="images/SNR-stats.png" alt="Time perception states statistics across 6 frequency bands" style="width: 100%; height: auto;">
+    <img src="assets/SNR-stats.png" alt="Time perception states statistics across 6 frequency bands" style="width: 100%; height: auto;">
     <p>SNR of time perception states in all EEG band powers for each participant.</p>
 </div>
 
