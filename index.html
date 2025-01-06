@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brain Signatures of Time Perception in VR</title>
+    <title>Supplementary Materials - Brain Signatures of Time Perception in VR</title>
     <style>
         body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
-        h1, h2, h3, h4, h5, h6 { color: #0077b6; }
+        h1, h2, h3 { color: #0077b6; }
         table { width: 100%; border-collapse: collapse; margin: 20px 0; }
         table, th, td { border: 1px solid #ddd; padding: 8px; }
         th { background-color: #f2f2f2; text-align: left; }
-        img { max-width: 100%; height: auto; }
+        img, video, audio { max-width: 100%; height: auto; }
         .center { text-align: center; }
         .flex-container { display: flex; justify-content: space-between; gap: 10px; }
         .flex-container > div { width: 33%; text-align: center; }
+        .flex-container-half { display: flex; justify-content: space-between; gap: 10px; }
+        .flex-container-half > div { width: 48%; text-align: center; }
+        caption { caption-side: top; font-weight: bold; margin-bottom: 5px; }
     </style>
 </head>
 <body>
@@ -71,7 +74,90 @@
 
     <hr>
 
-    <!-- Continue adding the other sections in a similar manner -->
+    <h2>2. Procedure</h2>
+    <div class="center">
+        <img src="assets/procedure.png" alt="experiment procedure" style="width: 80%;">
+        <video id="video-player" controls>
+            <source src="assets/procedure.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>An example of an event: Cognitive modulator, Medium mode, duration 6 seconds</p>
+    </div>
+
+    <hr>
+
+    <h2>3. Modulators</h2>
+    <img src="assets/events.png" alt="5 modulators to 42 events">
+
+    <h3>3.1. Emotion</h3>
+    <table>
+        <caption>Valence and arousal values of pictures used for implementing the emotion modulator</caption>
+        <thead>
+            <tr>
+                <th>Mode</th>
+                <th></th>
+                <th>Picture 1</th>
+                <th>Picture 2</th>
+                <th>Picture 3</th>
+                <th>Picture 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2"><b>Positive<br>High</b></td>
+                <td>Valence</td>
+                <td>91.266&dagger;</td>
+                <td>81.696&dagger;</td>
+                <td>6.67</td>
+                <td>6.50</td>
+            </tr>
+            <tr>
+                <td>Arousal</td>
+                <td>57.636&dagger;</td>
+                <td>66.009&dagger;</td>
+                <td>4.04</td>
+                <td>3.08</td>
+            </tr>
+            <!-- Additional rows omitted for brevity -->
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6">
+                    <small>
+                        &dagger; GAPED scoring system ranging from 0 to 100 ("very negative"/"insignificantly arousing" to "very positive"/"highly arousing"); 
+                        the rest follows the NAPS rating scale ranging from 1 to 9 ("very negative"/"relaxed" to "very positive"/"aroused").
+                    </small>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Additional modulators (Cognitive, Oddball, Magnitude, Expectation) omitted for brevity -->
+
+    <hr>
+
+    <h2>4. Results</h2>
+    <div class="center">
+        <img src="assets/topography.png" alt="Topographical map of time perception states">
+        <p>Topographic map of different band powers for time perception states.</p>
+    </div>
+    <div class="center">
+        <img src="assets/psd.png" alt="PSD plot of time perception states">
+        <p>Spectral activity of EEG channels averaged over all participants, grouped by time perception states.</p>
+    </div>
+    <div class="center">
+        <img src="assets/SNR-stats.png" alt="Time perception states statistics across 6 frequency bands">
+        <p>SNR of time perception states in all EEG band powers for each participant.</p>
+    </div>
+
+    <hr>
+
+    <h2>5. Publication</h2>
+    <ul>
+        <li><a href="https://this-page-intentionally-left-blank.org/" target="_blank" rel="noopener noreferrer">Link to the paper</a></li>
+    </ul>
+
+    <hr>
 
     <p style="text-align: left;">
         The content of this page is licensed under 
