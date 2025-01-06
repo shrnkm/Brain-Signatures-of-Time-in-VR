@@ -212,23 +212,29 @@
     <h3>3.4. Magnitude Modulator</h3>
     <div class="flex-container">
         <div>
-            <audio controls src="/assets/magnitude_normal.mp3">
+            <audio controls>
                 <source src="assets/magnitude_highPitch.mp3" type="audio/mpeg">
+                <source src="assets/magnitude_highPitch.ogg" type="audio/ogg">
+                <source src="assets/magnitude_highPitch.oga" type="audio/ogg">
                 Your browser does not support the audio element.
             </audio>
-            <p>High pitch</p>
+            <p><a href="assets/magnitude_highPitch.mp3" target="_blank" download style="text-decoration: underline; color: #0077b6;">High pitch</a></p>
         </div>
         <div>
             <audio controls>
                 <source src="audio/magnitude_normal.mp3" type="audio/mpeg">
+                <source src="assets/magnitude_normal.ogg" type="audio/ogg">
+                <source src="assets/magnitude_normal.oga" type="audio/ogg">
             </audio>
-            <p>Normal</p>
+            <p><a href="assets/magnitude_normal.mp3" target="_blank" download style="text-decoration: underline; color: #0077b6;">Normal</a></p>   
         </div>
         <div>
             <audio controls>
-                <source src="assets/magnitude_lowPitch.mp3" type="audio/mp3">
+                <source src="assets/magnitude_lowPitch.mp3" type="audio/mpeg">
+                <source src="assets/magnitude_lowPitch.ogg" type="audio/ogg">
+                <source src="assets/magnitude_lowPitch.oga" type="audio/ogg">
             </audio>
-            <p>Low pitch</p>
+            <p><a href="assets/magnitude_lowPitch.mp3" target="_blank" download style="text-decoration: underline; color: #0077b6;">Low pitch</a></p>
         </div>
     </div>
     <p style="font-style: italic; font-size: 0.9em; color: #555;">
@@ -276,7 +282,7 @@
         <li><a href="https://this-page-intentionally-left-blank.org/" target="_blank" rel="noopener noreferrer">Link to the paper</a></li>
     </ul>
     
-<!--     <h3>5.1 BibTeX Citation</h3>
+    <h3>5.1 BibTeX Citation</h3>
     <pre>
         @Article{Niknam25_brainvr,
         author    = {Sahar Niknam and Saravanakumar Duraisamy and Jean Botev and Luis A. Leiva},
@@ -284,31 +290,7 @@
         journal   = {IEEE Transactions on Visualization and Computer Graphics},
         year      = {2025},
         }
-    </pre> -->
-    <div style="border: 1px solid #ddd; background-color: #f9f9f9; padding: 10px; border-radius: 5px; overflow-x: auto;">
-        <pre style="margin: 0; font-family: monospace;">
-            @Article{Niknam25_brainvr,
-            author    = {Sahar Niknam and Saravanakumar Duraisamy and Jean Botev and Luis A. Leiva},
-            title     = {Brain Signatures of Time Perception in Virtual Reality},
-            journal   = {IEEE Transactions on Visualization and Computer Graphics},
-            year      = {2025}
-            }
-       </pre>
-    <button onclick="copyBibTeX()" style="position: absolute; top: 10px; right: 10px; padding: 5px 10px; font-size: 12px; cursor: pointer; border: none; background-color: #0077b6; color: white; border-radius: 3px;">
-        📋 Copy
-    </button>
-</div>
-
-<script>
-    function copyBibTeX() {
-        const bibtex = document.getElementById('bibtexCitation').innerText;
-        navigator.clipboard.writeText(bibtex).then(() => {
-            const button = document.querySelector('button');
-            button.innerText = 'Copied!';
-            setTimeout(() => button.innerText = '📋 Copy', 2000);
-        });
-    }
-</script>
+    </pre>
 
     <hr>
 
